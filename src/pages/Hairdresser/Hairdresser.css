@@ -1,0 +1,249 @@
+@media (max-width: 426px){
+    .hairdresser{
+        background-color: var(--dark);
+        width: 100vw;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .hairdresser_title{
+        color: var(--gold);
+        padding: 1.5em;
+        font-size: 1.5em;
+    }
+    .hairdresser_profile{
+        background-color: #323345;
+        border-radius: 10px;
+        margin: 0.5em 1em;
+        height: 5em;
+        display: flex;
+        align-items: center;
+        color: var(--gold);
+        font-size: 0.8em;
+    }
+    .hairdresser_profile:hover{
+        transition: 0.3s;
+        border: 1px solid var(--gold);
+    }
+
+
+    .hairdresserpic{
+        border: 1px solid #d9d9d9;
+        border-radius: 50%;
+        width: 4em;
+        height: 4em;
+        margin-left: 1.5em;
+        margin-right: 1em;
+        background-image: url('prof.png');
+        background-size: cover;
+    }
+ 
+    .hairdresser_profile small {
+        color: #d9d9d9;
+        font-weight: lighter;
+        margin-top: 0.5em;
+    }
+
+    .hairdresser_text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.5em;
+    }
+}
+
+@media (min-width:426px) and (max-width: 769px){
+    .hairdresser{
+        background-color: var(--dark);
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .wrap_hairdresser{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .hairdresser_title{
+        color: var(--gold);
+        padding: 1.5em;
+        font-size: 1.5em;
+    }
+    .hairdresser_profile{
+        background-color: #323345;
+        border-radius: 10px;
+        margin: 0.5em 1em;
+        height: 5em;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        color: var(--gold);
+        font-size: 0.8em;
+        width: 40%;
+    }
+    .hairdresser_profile:hover{
+        transition: 0.3s;
+        border: 1px solid var(--gold);
+    }
+
+
+    .hairdresserpic{
+        border: 1px solid #d9d9d9;
+        border-radius: 50%;
+        width: 4em;
+        height: 4em;
+        margin-left: 1.5em;
+        margin-right: 1em;
+        background-image: url('prof.png');
+        background-size: cover;
+    }
+ 
+    .hairdresser_profile small {
+        color: #d9d9d9;
+        font-weight: lighter;
+        margin-top: 0.5em;
+    }
+
+    .hairdresser_text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.5em;
+    }
+}
+
+@media (min-width:769px) and (max-width: 1025px){
+    .hairdresser{
+        background-color: var(--dark);
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .wrap_hairdresser{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 2em;
+        height: 100%;
+    }
+    .hairdresser_title{
+        color: var(--gold);
+        padding: 1.5em;
+        font-size: 1.5em;
+    }
+    .hairdresser_profile{
+        background-color: #323345;
+        border-radius: 10px;
+        margin: 0.5em 1em;
+        height: 5em;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        color: var(--gold);
+        font-size: 0.8em;
+        width: 30%;
+    }
+    .hairdresser_profile:hover{
+        transition: 0.3s;
+        border: 1px solid var(--gold);
+    }
+
+
+    .hairdresserpic{
+        border: 1px solid #d9d9d9;
+        border-radius: 50%;
+        width: 4em;
+        height: 4em;
+        margin-left: 1.5em;
+        margin-right: 1em;
+        background-image: url('prof.png');
+        background-size: cover;
+    }
+ 
+    .hairdresser_profile small {
+        color: #d9d9d9;
+        font-weight: lighter;
+        margin-top: 0.5em;
+    }
+
+    .hairdresser_text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.5em;
+    }
+}
+
+@media (min-width: 1025px) {
+    .hairdresser{
+        background-color: var(--dark);
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .wrap_hairdresser{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 2em;
+        height: 100%;
+    }
+
+   
+    .hairdresser_title{
+        color: var(--gold);
+        padding: 1.5em;
+        font-size: 1.5em;
+    }
+    .hairdresser_profile{
+        background-color: #323345;
+        border-radius: 10px;
+        margin: 0.5em 1em;
+        height: 5em;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        color: var(--gold);
+        font-size: 0.8em;
+        width: 33%;
+    }
+    .hairdresser_profile:hover{
+        transition: 0.3s;
+        border: 1px solid var(--gold);
+    }
+
+    .hairdresserpic{
+        border: 1px solid #d9d9d9;
+        border-radius: 50%;
+        width: 4em;
+        height: 4em;
+        margin-left: 1.5em;
+        margin-right: 1em;
+        background-image: url('prof.png');
+        background-size: cover;
+    }
+ 
+    .hairdresser_profile small {
+        color: #d9d9d9;
+        font-weight: lighter;
+        margin-top: 0.5em;
+    }
+
+    .hairdresser_text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.5em;
+    }
+}

@@ -1,0 +1,459 @@
+@media (max-width: 426px){
+    .appointment{
+        background-color: var(--dark);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .appointment_title{
+        color: var(--gold);
+        padding: 1.5em;
+        font-size: 1.5em;
+    }
+    
+    .appointment_hairdresser_profile{
+        background-color: #323345;
+        border-radius: 10px;
+        margin: 0.5em;
+        height: 7em;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        font-size: 0.8em;
+    }
+    .appointment_hairdresserpic{
+        border: 1px solid #d9d9d9;
+        border-radius: 50%;
+        width: 5em;
+        height: 5em;
+        background-image: url('prof.png');
+        background-size: cover;
+        margin-left: 1em;
+    }
+    .apppointment_hairdresser_text{
+        margin-left: 1em;
+        margin-bottom: 1em;
+    }
+    .apppointment_hairdresser_text p{
+        color: var(--gold);
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+    }
+    .apppointment_hairdresser_text small{
+        color: rgb(217, 217, 217, .6);
+        font-size: .95em;
+    }
+    .appointment_table{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .date,
+    .hour,
+    .service {
+        display: flex;
+        flex-direction: column;
+        color: var(--gold);
+        font-size: 0.8em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+    }
+    .date input{
+        background-color: #323345;
+        border: none;
+        border-radius: 10px;
+        padding: 0.8em;
+        width: 85vw;
+        margin-top: 0.5em;
+    }
+    
+    .hour div{
+        background-color: #323345;
+        border: none;
+        border-radius: 10px;
+        padding: 0.8em;
+        width: 85vw;
+        height: 25vh;
+        margin-top: 0.5em;
+    }
+    .service select{
+        background-color: #323345;
+        border: none;
+        border-radius: 10px;
+        padding: 0.8em;
+        width: 90vw;
+        margin-top: 0.5em;
+        color: var(--gold);
+    }
+    /* select option:hover{
+        box-shadow: 0 0 10px 100px #19191a inset
+    } */
+    .appointment_button{
+        background-color: var(--gold);
+        width: 4.5em;
+        height: 4.5em;
+        text-align: center;
+        border-radius: 12px;
+        margin-bottom: 3em;
+        margin-top: 2em;
+        cursor: pointer;
+        transition: 0.4s;
+        font-size: 1.2em;
+    }
+    
+    .appointment_button:hover{
+        background-color: transparent;
+        border: 1px solid var(--gold);
+        color: var(--gold);
+    }
+}
+
+@media (min-width:426px) and (max-width: 769px){
+    .appointment{
+        background-color: var(--dark);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .appointment_title{
+        color: var(--gold);
+        padding: 1.5em;
+        font-size: 1.5em;
+    }
+    
+    .appointment_hairdresser_profile{
+        background-color: #323345;
+        border-radius: 10px;
+        margin: 0.5em;
+        height: 7em;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        font-size: 0.8em;
+    }
+    .appointment_hairdresserpic{
+        border: 1px solid #d9d9d9;
+        border-radius: 50%;
+        width: 5em;
+        height: 5em;
+        background-image: url('prof.png');
+        background-size: cover;
+        margin-left: 1em;
+    }
+    .apppointment_hairdresser_text{
+        margin-left: 1em;
+        margin-bottom: 1em;
+    }
+    .apppointment_hairdresser_text p{
+        color: var(--gold);
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+    }
+    .apppointment_hairdresser_text small{
+        color: rgb(217, 217, 217, .6);
+        font-size: .95em;
+    }
+    .appointment_table{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .date,
+    .hour,
+    .service {
+        display: flex;
+        flex-direction: column;
+        color: var(--gold);
+        font-size: 0.8em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+    }
+    .date input{
+        background-color: #323345;
+        border: none;
+        border-radius: 10px;
+        padding: 0.8em;
+        width: 85vw;
+        margin-top: 0.5em;
+    }
+    
+    .hour div{
+        background-color: #323345;
+        border: none;
+        border-radius: 10px;
+        padding: 0.8em;
+        width: 85vw;
+        height: 25vh;
+        margin-top: 0.5em;
+    }
+    .service select{
+        background-color: #323345;
+        border: none;
+        border-radius: 10px;
+        padding: 0.8em;
+        width: 89vw;
+        margin-top: 0.5em;
+        color: var(--gold);
+    }
+    /* select option:hover{
+        box-shadow: 0 0 10px 100px #19191a inset
+    } */
+    .appointment_button{
+        background-color: var(--gold);
+        width: 4.5em;
+        height: 4.5em;
+        text-align: center;
+        border-radius: 12px;
+        margin-bottom: 3em;
+        margin-top: 2em;
+        cursor: pointer;
+        transition: 0.4s;
+        font-size: 1.2em;
+    }
+    
+    .appointment_button:hover{
+        background-color: transparent;
+        border: 1px solid var(--gold);
+        color: var(--gold);
+    }
+}
+
+@media (min-width:769px) and (max-width: 1025px){
+    .appointment{
+        background-color: var(--dark);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .appointment_title{
+        color: var(--gold);
+        padding: 1.5em;
+        font-size: 1.5em;
+    }
+    
+    .appointment_hairdresser_profile{
+        background-color: #323345;
+        border-radius: 10px;
+        height: 55vh;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 0.8em;
+        margin-top: 1.5em;
+        margin-right: 30em;
+    }
+    .appointment_hairdresserpic{
+        border: 1px solid #d9d9d9;
+        border-radius: 50%;
+        width: 15em;
+        height: 15em;
+        background-image: url('prof.png');
+        background-size: cover;
+        margin-top: 3em;
+    }
+    .apppointment_hairdresser_text{
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+    .apppointment_hairdresser_text p{
+        color: var(--gold);
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+    }
+    .apppointment_hairdresser_text small{
+        color: rgb(217, 217, 217, .6);
+        font-size: .95em;
+    }
+    .appointment_table{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width: 30%;
+        margin: -25em 1em 0 25em;
+    }
+    .date,
+    .hour,
+    .service {
+        display: flex;
+        flex-direction: column;
+        color: var(--gold);
+        font-size: 0.8em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+    }
+    .date input{
+        background-color: #323345;
+        border: none;
+        border-radius: 10px;
+        padding: 0.8em;
+        width: 30vw;
+        margin-top: 0.5em;
+    }
+    
+    .hour div{
+        background-color: #323345;
+        border: none;
+        border-radius: 10px;
+        padding: 0.8em;
+        width: 30vw;
+        height: 25vh;
+        margin-top: 0.5em;
+    }
+    .service select{
+        background-color: #323345;
+        border: none;
+        border-radius: 10px;
+        padding: 0.8em;
+        width: 30vw;
+        margin-top: 0.5em;
+        color: var(--gold);
+    }
+    /* select option:hover{
+        box-shadow: 0 0 10px 100px #19191a inset
+    } */
+    .appointment_button{
+        background-color: var(--gold);
+        width: 4.5em;
+        height: 4.5em;
+        text-align: center;
+        border-radius: 12px;
+        margin-bottom: 3em;
+        margin-top: 2em;
+        cursor: pointer;
+        transition: 0.4s;
+        font-size: 1.2em;
+    }
+    
+    .appointment_button:hover{
+        background-color: transparent;
+        border: 1px solid var(--gold);
+        color: var(--gold);
+    }
+}
+
+@media (min-width:1025px) {
+    .appointment{
+        background-color: var(--dark);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .appointment_title{
+        color: var(--gold);
+        padding: 1.5em;
+        font-size: 1.5em;
+    }
+    
+    .appointment_hairdresser_profile{
+        background-color: #323345;
+        border-radius: 10px;
+        height: 55vh;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 0.8em;
+        margin-top: 1.5em;
+        margin-right: 30em;
+    }
+    .appointment_hairdresserpic{
+        border: 1px solid #d9d9d9;
+        border-radius: 50%;
+        width: 15em;
+        height: 15em;
+        background-image: url('prof.png');
+        background-size: cover;
+        margin-top: 3em;
+    }
+    .apppointment_hairdresser_text{
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+    .apppointment_hairdresser_text p{
+        color: var(--gold);
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+    }
+    .apppointment_hairdresser_text small{
+        color: rgb(217, 217, 217, .6);
+        font-size: .95em;
+    }
+    .appointment_table{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width: 30%;
+        margin: -25em 1em 0 25em;
+    }
+    .date,
+    .hour,
+    .service {
+        display: flex;
+        flex-direction: column;
+        color: var(--gold);
+        font-size: 0.8em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+    }
+    .date input{
+        background-color: #323345;
+        border: none;
+        border-radius: 10px;
+        padding: 0.8em;
+        width: 30vw;
+        margin-top: 0.5em;
+    }
+    
+    .hour div{
+        background-color: #323345;
+        border: none;
+        border-radius: 10px;
+        padding: 0.8em;
+        width: 30vw;
+        height: 25vh;
+        margin-top: 0.5em;
+    }
+    .service select{
+        background-color: #323345;
+        border: none;
+        border-radius: 10px;
+        padding: 0.8em;
+        width: 30vw;
+        margin-top: 0.5em;
+        color: var(--gold);
+    }
+    /* select option:hover{
+        box-shadow: 0 0 10px 100px #19191a inset
+    } */
+    .appointment_button{
+        background-color: var(--gold);
+        width: 4.5em;
+        height: 4.5em;
+        text-align: center;
+        border-radius: 12px;
+        margin-bottom: 3em;
+        margin-top: 2em;
+        cursor: pointer;
+        transition: 0.4s;
+        font-size: 1.2em;
+    }
+    
+    .appointment_button:hover{
+        background-color: transparent;
+        border: 1px solid var(--gold);
+        color: var(--gold);
+    }
+}

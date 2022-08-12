@@ -1,0 +1,34 @@
+.home{
+    background-color: var(--dark);
+    color: var(--white);
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.home span{
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+}
+
+.home button{
+    background-color: var(--gold);
+    width: 4.5em;
+    height: 4.5em;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 8em;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 1.2em;
+}
+
+.home button:hover{
+    background-color: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+}

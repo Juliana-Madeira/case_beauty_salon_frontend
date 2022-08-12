@@ -1,0 +1,321 @@
+@media (max-width: 426px){
+    .myclient{
+        background-color: var(--dark);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .myclient_title{
+        color: var(--gold);
+        padding: 1.5em;
+        font-size: 1.5em;
+    }
+    .client_profile{
+        background-color: #323345;
+        border-radius: 10px;
+        margin: 0.5em;
+        height: 7em;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        font-size: 0.8em;
+    }
+    .clientpic{
+        border: 1px solid #d9d9d9;
+        border-radius: 50%;
+        width: 5em;
+        height: 5em;
+        background-color: #d9d9d9;
+        background-size: cover;
+        margin-left: 1em;
+    }
+    .client_text{
+        margin-left: 1em;
+        margin-bottom: 1em;
+    }
+    .client_text p{
+        color: var(--gold);
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+    }
+    .client_text small{
+        color: rgb(217, 217, 217, .6);
+        font-size: .95em;
+    }
+    .clients_list{
+        margin-top: 1em;
+        list-style: none;
+        color: var(--gold);
+    }
+    .clients_list li{
+        margin-bottom: 1em;
+        /* border: 1px solid var(--gold); */
+        background-color: #323345;
+        width: 85vw;
+        height: 1.5em;
+        border-radius: 10px;
+        padding: 0.5em;
+    }
+    .clients_list li span{
+        margin-right: 1em;
+        color: rgba(217, 217, 217,.5)
+    }
+    .button_validate {
+        background-color:var(--gold);
+        color: var(--dark);
+        width: 15em;
+        height: 2.3em;
+        border-radius: 20px;
+        margin-top: 1.5em;
+        font-weight: 600;
+        margin-bottom: 5em;
+      }
+      .button_validate:hover {
+        background-color:var(--black);
+        color: var(--gold);
+        border: 1px solid var(--gold);
+      }
+}
+
+@media (min-width:426px) and (max-width: 769px){
+    .myclient{
+        background-color: var(--dark);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .myclient_title{
+        color: var(--gold);
+        padding: 1.5em;
+        font-size: 1.5em;
+    }
+    .client_profile{
+        background-color: #323345;
+        border-radius: 10px;
+        margin: 0.5em;
+        height: 7em;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        font-size: 0.8em;
+    }
+    .clientpic{
+        border: 1px solid #d9d9d9;
+        border-radius: 50%;
+        width: 5em;
+        height: 5em;
+        background-color: #d9d9d9;
+        background-size: cover;
+        margin-left: 1em;
+    }
+    .client_text{
+        margin-left: 1em;
+        margin-bottom: 1em;
+    }
+    .client_text p{
+        color: var(--gold);
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+    }
+    .client_text small{
+        color: rgb(217, 217, 217, .6);
+        font-size: .95em;
+    }
+    .clients_list{
+        margin-top: 1em;
+        list-style: none;
+        color: var(--gold);
+    }
+    .clients_list li{
+        margin-bottom: 1em;
+        /* border: 1px solid var(--gold); */
+        background-color: #323345;
+        width: 85vw;
+        height: 1.5em;
+        border-radius: 10px;
+        padding: 0.5em;
+    }
+    .clients_list li span{
+        margin-right: 1em;
+        color: rgba(217, 217, 217,.5)
+    }
+    .button_validate {
+        background-color:var(--gold);
+        color: var(--dark);
+        width: 15em;
+        height: 2.3em;
+        border-radius: 20px;
+        margin-top: 1.5em;
+        font-weight: 600;
+        margin-bottom: 5em;
+      }
+      .button_validate:hover {
+        background-color:var(--black);
+        color: var(--gold);
+        border: 1px solid var(--gold);
+      }
+}
+
+@media (min-width:769px) and (max-width: 1025px){
+    .myclient{
+        background-color: var(--dark);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .myclient_title{
+        color: var(--gold);
+        padding: 1.5em;
+        font-size: 1.5em;
+    }
+    .client_profile{
+        background-color: #323345;
+        border-radius: 10px;
+        margin: 0.5em;
+        height: 7em;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        font-size: 0.8em;
+    }
+    .clientpic{
+        border: 1px solid #d9d9d9;
+        border-radius: 50%;
+        width: 5em;
+        height: 5em;
+        background-color: #d9d9d9;
+        background-size: cover;
+        margin-left: 1em;
+    }
+    .client_text{
+        margin-left: 1em;
+        margin-bottom: 1em;
+    }
+    .client_text p{
+        color: var(--gold);
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+    }
+    .client_text small{
+        color: rgb(217, 217, 217, .6);
+        font-size: .95em;
+    }
+    .clients_list{
+        margin-top: 1em;
+        list-style: none;
+        color: var(--gold);
+    }
+    .clients_list li{
+        margin-bottom: 1em;
+        /* border: 1px solid var(--gold); */
+        background-color: #323345;
+        width: 85vw;
+        height: 1.5em;
+        border-radius: 10px;
+        padding: 0.5em;
+    }
+    .clients_list li span{
+        margin-right: 1em;
+        color: rgba(217, 217, 217,.5)
+    }
+    .button_validate {
+        background-color:var(--gold);
+        color: var(--dark);
+        width: 15em;
+        height: 2.3em;
+        border-radius: 20px;
+        margin-top: 1.5em;
+        font-weight: 600;
+        margin-bottom: 5em;
+      }
+      .button_validate:hover {
+        background-color:var(--black);
+        color: var(--gold);
+        border: 1px solid var(--gold);
+      }
+}
+
+.myclient{
+    background-color: var(--dark);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.myclient_title{
+    color: var(--gold);
+    padding: 1.5em;
+    font-size: 1.5em;
+}
+.client_profile{
+    background-color: #323345;
+    border-radius: 10px;
+    margin: 0.5em;
+    height: 7em;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+}
+.clientpic{
+    border: 1px solid #d9d9d9;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    background-color: #d9d9d9;
+    background-size: cover;
+    margin-left: 1em;
+}
+.client_text{
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+.client_text p{
+    color: var(--gold);
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+.client_text small{
+    color: rgb(217, 217, 217, .6);
+    font-size: .95em;
+}
+.clients_list{
+    margin-top: 1em;
+    list-style: none;
+    color: var(--gold);
+}
+.clients_list li{
+    margin-bottom: 1em;
+    /* border: 1px solid var(--gold); */
+    background-color: #323345;
+    width: 85vw;
+    height: 1.5em;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+.clients_list li span{
+    margin-right: 1em;
+    color: rgba(217, 217, 217,.5)
+}
+.button_validate {
+    background-color:var(--gold);
+    color: var(--dark);
+    width: 15em;
+    height: 2.3em;
+    border-radius: 20px;
+    margin-top: 1.5em;
+    font-weight: 600;
+    margin-bottom: 5em;
+  }
+  .button_validate:hover {
+    background-color:var(--black);
+    color: var(--gold);
+    border: 1px solid var(--gold);
+  }
