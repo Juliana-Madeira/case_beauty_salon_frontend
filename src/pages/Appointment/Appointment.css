@@ -77,7 +77,7 @@
         border-radius: 10px;
         padding: 0.8em;
         width: 85vw;
-        height: 25vh;
+        height: 30vh;
         margin-top: 0.5em;
     }
     .service select{
@@ -109,6 +109,11 @@
         background-color: transparent;
         border: 1px solid var(--gold);
         color: var(--gold);
+    }
+    .hour div ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -191,7 +196,7 @@
         border-radius: 10px;
         padding: 0.8em;
         width: 85vw;
-        height: 25vh;
+        height: 30vh;
         margin-top: 0.5em;
     }
     .service select{
@@ -223,6 +228,11 @@
         background-color: transparent;
         border: 1px solid var(--gold);
         color: var(--gold);
+    }
+    .hour div ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -340,6 +350,11 @@
         border: 1px solid var(--gold);
         color: var(--gold);
     }
+    .hour div ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (min-width:1025px) {
@@ -423,7 +438,7 @@
         border-radius: 10px;
         padding: 0.8em;
         width: 30vw;
-        height: 25vh;
+        height: 30vh;
         margin-top: 0.5em;
     }
     .service select{
@@ -455,5 +470,10 @@
         background-color: transparent;
         border: 1px solid var(--gold);
         color: var(--gold);
+    }
+    .hour div ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
     }
 }
