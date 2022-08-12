@@ -47,6 +47,17 @@ class Api {
         }
     }
 
+
+    //register - signup
+    signup = async(signupInfo) => {
+        try {
+            const { data } = await this.api.post('/signup', signupInfo);
+            return data;
+        } catch (error) {
+            throw new Error(error)
+        }
+    }
+
     //get all hairdressers
     getAllHairdressers = async () => {
         try {

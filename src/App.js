@@ -13,7 +13,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        {/* <Sidebar/> */}
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/appointment" element={<Appointment/>}/>
