@@ -95,6 +95,7 @@ class Api {
     getOneSalon = async (id) => {
         try {
             const { data } = await this.api.get(`/salons/${id}`);
+            return data;
         } catch (error) {
             console.error(error);
             

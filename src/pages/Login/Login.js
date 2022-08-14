@@ -1,31 +1,31 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
-// import api from '../../utils/api.utils';
+import api from '../../utils/api.utils';
 
 import './Login.css';
 
 
 const Login = () => {
-  // const [email, setEmail] = useState('');
-  // const [password, setPassword] = useState('');
-  // const [message, setMessage] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [setMessage] = useState('');
 
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault()
-  //   try {
-  //     await api.login({email, password})
-  //     navigate('/salons')
-  //     setMessage('Welcome!')
-  //     console.log('success login')
-  //   } catch (error) {
-  //     console.error(error)
-  //   }
-  //   setEmail('');
-  //   setPassword('');
-  // }
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    try {
+      await api.login({email, password})
+      navigate('/salons')
+      setMessage('Welcome!')
+      console.log('success login')
+    } catch (error) {
+      console.error(error)
+    }
+    setEmail('');
+    setPassword('');
+  }
 
   return (
     <div className='login'>
@@ -34,23 +34,23 @@ const Login = () => {
         <span>Welcome back!</span>
       </div>
       <form className='form_login' 
-      // onSubmit={handleSubmit}
+      onSubmit={handleSubmit}
       >
         <input 
           type="email" 
           placeholder='Email' 
           name='email' 
-          // value={email} 
+          value={email} 
           required 
-          // onChange={(e) => setEmail(e.target.value)} 
+          onChange={(e) => setEmail(e.target.value)} 
           />
         <input 
           type="password" 
           placeholder='Password' 
           name='password' 
-          // value={password} 
+          value={password} 
           required 
-          // onChange={(e) => setPassword(e.target.value)}
+          onChange={(e) => setPassword(e.target.value)}
           />
         <Link to='/salons'>
           <button className='button_login' type='submit'>Login</button>

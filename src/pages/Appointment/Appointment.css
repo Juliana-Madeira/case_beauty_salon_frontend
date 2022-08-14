@@ -62,15 +62,52 @@
         margin-bottom: 0.5em;
         margin-top: 0.5em;
     }
-    .date input{
+    /* .date input{
         background-color: #323345;
         border: none;
         border-radius: 10px;
         padding: 0.8em;
         width: 85vw;
         margin-top: 0.5em;
+    } */
+
+    .calendlyDate {
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        background-color: #323345;
+        width: 85vw;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 0.5em;
+    }
+
+    .date p {
+        text-align: center;
+    }
+
+    .monthText{
+        font-size: 1.2em;
     }
     
+
+    .faAngleLeft{
+        background-color: transparent;
+        border: none;
+        color: var(--gold);
+        margin-right: 1em;
+        cursor: pointer;
+
+    }
+    .faAngleRight{
+        background-color: transparent;
+        color: var(--gold);
+        border: none;
+        margin-left: 1em;
+        border: none;
+        cursor: pointer;
+    }
+
     .hour div{
         background-color: #323345;
         border: none;
@@ -80,6 +117,16 @@
         height: 30vh;
         margin-top: 0.5em;
     }
+
+    .hour div ul li{
+        width: 4.5em;
+        height: 2.5em;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        font-size: 1em;
+    }
+
     .service select{
         background-color: #323345;
         border: none;
@@ -89,9 +136,7 @@
         margin-top: 0.5em;
         color: var(--gold);
     }
-    /* select option:hover{
-        box-shadow: 0 0 10px 100px #19191a inset
-    } */
+    
     .appointment_button{
         background-color: var(--gold);
         width: 4.5em;

@@ -17,7 +17,7 @@ const FooterSpan = styled.span`
 const Footer = () => {
   return (
     <FooterBlock>
-        <FooterSpan>@Case Beauty Salon. All rights reserved.</FooterSpan>
+      <FooterSpan>@Case Beauty Salon. All rights reserved.</FooterSpan>
     </FooterBlock>
   )
 }
