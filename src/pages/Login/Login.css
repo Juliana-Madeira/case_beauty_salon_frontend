@@ -4,6 +4,9 @@
     width: 100vw;
     height: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .login img {
@@ -29,6 +32,7 @@
     font-size: 2em;
     font-weight: 700;
   }
+
 
   .form_login {
     display: flex;
@@ -83,7 +87,8 @@
 
   .login_links_account {
     margin-bottom: 2.5em;
-    font-size: 0.9em;
+    font-size: 0.8em;
+    color: var(--lightText) ;
   }
 
   .login_links_account span {
@@ -97,6 +102,9 @@
     width: 100vw;
     height: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .login img {
@@ -174,10 +182,11 @@
   }
 
   .login_links_account {
-    margin-bottom: 3em;
-    font-size: 1em;
+    margin-bottom: 2.5em;
+    font-size: 0.8em;
+    color: var(--lightText) ;
   }
-
+  
   .login_links_account span {
     color: var(--gold);
   }
@@ -189,6 +198,9 @@
     width: 100vw;
     height: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .login img {
@@ -267,8 +279,9 @@
   }
 
   .login_links_account {
-    margin-bottom: 3em;
-    font-size: 1em;
+    margin-bottom: 2.5em;
+    font-size: 0.8em;
+    color: var(--lightText) ;
   }
 
   .login_links_account span {
@@ -279,8 +292,12 @@
 @media (min-width: 1025px) {
   .login {
     background-color: var(--dark);
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .login img {
@@ -359,8 +376,9 @@
   }
 
   .login_links_account {
-    margin-bottom: 3em;
-    font-size: 1em;
+    margin-bottom: 2.5em;
+    font-size: 0.8em;
+    color: var(--lightText) ;
   }
 
   .login_links_account span {

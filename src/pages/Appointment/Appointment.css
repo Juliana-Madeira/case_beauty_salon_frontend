@@ -60,26 +60,90 @@
         color: var(--gold);
         font-size: 0.8em;
         margin-bottom: 0.5em;
-        margin-top: 0.5em;
+        margin-top: 0.8em;
+        text-align: center;
     }
     .date input{
         background-color: #323345;
         border: none;
         border-radius: 10px;
         padding: 0.8em;
+        width: 50vw;
+        margin-top: 0.5em;
+        color: var(--gold);
+    }
+
+    .calendlyDate {
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        background-color: #323345;
         width: 85vw;
+        border-radius: 10px;
+        text-align: center;
         margin-top: 0.5em;
     }
+
+    .date p {
+        text-align: center;
+    }
+
+    /* .dateText{
+        font-size: 1.2em;
+    }
     
-    .hour div{
+
+    .faAngleLeft{
+        background-color: transparent;
+        border: none;
+        color: var(--gold);
+        margin-right: 1em;
+        cursor: pointer;
+
+    }
+    .faAngleRight{
+        background-color: transparent;
+        color: var(--gold);
+        border: none;
+        margin-left: 1em;
+        border: none;
+        cursor: pointer;
+    } */
+
+    .hour_block{
         background-color: #323345;
         border: none;
         border-radius: 10px;
         padding: 0.8em;
         width: 85vw;
-        height: 30vh;
+        height: 5vh;
         margin-top: 0.5em;
+        display: flex;
+        justify-content: center;
     }
+
+    .hour_menu{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #323345;
+        color: var(--gold);
+    }
+
+    /* .hour_item_list{
+        width: 75px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    } */
+    
+    /* .hour_text{
+        font-size: 1em;        
+    } */
+
     .service select{
         background-color: #323345;
         border: none;
@@ -89,9 +153,7 @@
         margin-top: 0.5em;
         color: var(--gold);
     }
-    /* select option:hover{
-        box-shadow: 0 0 10px 100px #19191a inset
-    } */
+    
     .appointment_button{
         background-color: var(--gold);
         width: 4.5em;
@@ -110,11 +172,7 @@
         border: 1px solid var(--gold);
         color: var(--gold);
     }
-    .hour div ul{
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-    }
+   
 }
 
 @media (min-width:426px) and (max-width: 769px){
@@ -243,6 +301,7 @@
         height: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
     .appointment_title{
@@ -260,8 +319,6 @@
         align-items: center;
         flex-direction: column;
         font-size: 0.8em;
-        margin-top: 1.5em;
-        margin-right: 30em;
     }
     .appointment_hairdresserpic{
         border: 1px solid #d9d9d9;
@@ -290,7 +347,6 @@
         flex-direction: column;
         align-items:center;
         width: 30%;
-        margin: -25em 1em 0 25em;
     }
     .date,
     .hour,
@@ -365,6 +421,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
     .appointment_title{
         color: var(--gold);
@@ -375,14 +432,12 @@
     .appointment_hairdresser_profile{
         background-color: #323345;
         border-radius: 10px;
-        height: 55vh;
+        height: 65vh;
         width: 30%;
         display: flex;
         align-items: center;
         flex-direction: column;
         font-size: 0.8em;
-        margin-top: 1.5em;
-        margin-right: 30em;
     }
     .appointment_hairdresserpic{
         border: 1px solid #d9d9d9;
@@ -411,7 +466,6 @@
         flex-direction: column;
         align-items:center;
         width: 30%;
-        margin: -25em 1em 0 25em;
     }
     .date,
     .hour,

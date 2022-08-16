@@ -1,10 +1,12 @@
 import axios from 'axios';
 
+
 class Api {
     constructor(){
         this.api = axios.create({
             baseURL:'http//localhost:8000'
         })
+
 
         this.api.interceptors.request.use((config) => {
             const token = localStorage.getItem('token')
@@ -12,7 +14,7 @@ class Api {
                 config.headers = {
                     'Authorization': `Bearer ${localStorage.getItem('token')}`
                 }
-            }
+            } 
                 return config;
             }, 
             (error) => console.log(error)
@@ -35,11 +37,9 @@ class Api {
     login = async (payload) => {
         try {
             const { data } = await this.api.post('/login', payload);
-            const { token } = data;
-            const id = data.payload.id;
-
-            localStorage.setItem('token', token);
-            localStorage.setItem('id', id);
+            localStorage.setItem('token', data.token)
+            localStorage.setItem('user', JSON.stringify(data.user))
+            return { data }
 
         } catch (error) {
             console.log(error);
@@ -49,7 +49,7 @@ class Api {
 
 
     //register - signup
-    signup = async(signupInfo) => {
+    signup = async (signupInfo) => {
         try {
             const { data } = await this.api.post('/signup', signupInfo);
             return data;
@@ -58,6 +58,7 @@ class Api {
         }
     }
 
+    
     //get all hairdressers
     getAllHairdressers = async () => {
         try {
@@ -95,6 +96,7 @@ class Api {
     getOneSalon = async (id) => {
         try {
             const { data } = await this.api.get(`/salons/${id}`);
+            return data;
         } catch (error) {
             console.error(error);
             
@@ -130,6 +132,8 @@ class Api {
             console.error(error);
         }
     }
+
+    
 
 }
 
