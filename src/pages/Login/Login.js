@@ -58,7 +58,7 @@ const Login = () => {
       </form>
       <div className='login_links'>
         <Link to='#password' className='login_links_password'>Forgot your Password?</Link>
-        <Link to='#account' className='login_links_account'>Don´t have an account? <span>Sign up</span></Link>
+        <p className='login_links_account'>Don´t have an account?<Link to='/signup' ><span>Sign up</span></Link></p> 
       </div>
       <Footer/>
     </div>

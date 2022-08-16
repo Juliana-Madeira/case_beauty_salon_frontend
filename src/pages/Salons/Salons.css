@@ -63,6 +63,7 @@
         text-align: center;
         display: flex;
         flex-direction: column;
+        height: 100%;
     }
     .salons_greeting p{
         color: var(--gold);

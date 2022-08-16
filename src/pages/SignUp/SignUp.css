@@ -1,0 +1,93 @@
+@media (max-width: 426px) {
+    .signup {
+      background-color: var(--dark);
+      width: 100vw;
+      height: 100%;
+      text-align: center;
+    }
+  
+    .signup_img {
+      width: 95%;
+      height: 15em;
+      margin: 0.5em;
+      border-radius: 5px;
+      filter: contrast(60%);
+     
+    }
+  
+    .signup_title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: 99;
+    }
+
+    .signup_title span {
+        color: var(--gold);
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+        z-index: 99;
+        font-size: 1.1em;
+        font-weight: 700;
+      }
+
+      .signup_title p {
+        color: var(--gold);
+        font-size: 0.9em;
+        margin-bottom: 1em;
+      }
+
+      .signup_form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.5em;
+      }
+    
+      .signup_form input {
+        background-color: var(--primary);
+        width: 80vw;
+        padding: 0.8em;
+        padding-left: 0.8em;
+        margin: 0.5em;
+        border: none;
+        border-radius: 12px;
+        color: rgba(255, 255, 255, 0.6);
+      }
+
+      .button_signup {
+        background-color:var(--gold);
+        color: var(--dark);
+        width: 15em;
+        height: 2.3em;
+        border-radius: 20px;
+        margin-top: 2em;
+        margin-bottom: 2.5em;
+        font-weight: 600;
+      }
+      .button_signup:hover {
+        background-color:var(--black);
+        color: var(--gold);
+        border: 1px solid var(--gold);
+      }
+      .signup_links {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .signup a {
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        padding: 0.8em;
+      }
+      .signup_links_account {
+        margin-bottom: 2.5em;
+        font-size: 0.8em;
+        color: var(--lightText) ;
+      }
+    
+      .signup_links_account span {
+        color: var(--gold);
+      }
+}
